@@ -1,0 +1,25 @@
+image: cirrusci/flutter:stable
+
+stages:
+  - build
+  - analyze
+
+before_script:
+  - flutter pub get
+  - flutter clean
+
+build:
+  stage: build
+
+  script:
+    - flutter build aot
+
+  artifacts:
+    paths:
+      - build/app/outputs/apk/app.apk
+
+analyze:
+  stage: analyze
+
+  script:
+    - echo job excluded
