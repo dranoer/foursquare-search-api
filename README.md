@@ -1,5 +1,9 @@
-# foursquare
+# Foursquare Search 📍
 
-This is a sample Flutter application working with https://foursquare.com/ api and Google Map.
+This is a sample Flutter application that integrates with the [Foursquare Developer API](https://location.foursquare.com/developer/docs) and Google Maps. This app lets you find places easily by using the powerful **Search API** from Foursquare. 
+<br>
+<br>
 
-I used BLoC pattern in this project.
+## Project Architecture
+
+The project follows the BLoC pattern.
